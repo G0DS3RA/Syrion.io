@@ -18,3 +18,5 @@ curl -X POST "$ENDPOINT" \
      -H "Content-Type: application/json" \
      -H "x-api-key: $API_KEY" \
      -d "$DATA"
+
+# Don't forget to chmod +x test-script.sh before doing ./test-script.sh
