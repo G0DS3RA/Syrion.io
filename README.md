@@ -18,7 +18,7 @@
 ## 📂 Repository Contents
 
 - **`examples/`**: Code snippets and examples for integrating the API in various programming languages (PHP, Python, JavaScript, etc.).
-- **`tools/`**: Utility scripts to test and deploy the API quickly.
+- **`tools/`**: Utility scripts to test the API quickly.
 
 ---
 
