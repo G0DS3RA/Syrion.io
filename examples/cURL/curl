@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -p "Enter your API key: " api_key
+read -p "Enter the IP address to check: " ip_address
+
+curl -X POST https://api.syrion.io/check \
+    -H "x-api-key: $api_key" \
+    -H "Content-Type: application/json" \
+    -d "{\"ip\": \"$ip_address\"}"
